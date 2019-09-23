@@ -14,10 +14,12 @@ body {
   text-align: center;
 }
 
-.article-poster-img {
+figure {
+  display: block;
+  margin: auto;
   max-width: 1200px;
 }
 
-.article-poster-img-section {
-  margin: auto;
+.img-1 {
+  max-width: 1200px;
 }
