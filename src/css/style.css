@@ -35,3 +35,16 @@ figcaption {
 .img-1 {
   max-width: 1200px;
 }
+
+.article-info {
+  display: block;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.social-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  float: right;
+}
