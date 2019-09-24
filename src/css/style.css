@@ -95,6 +95,14 @@ figcaption {
   color: #d3d3d3;
 }
 
+.article-text p, h4 { 
+  width: 33%; 
+  height: 100%;
+  margin: 20px auto auto auto;
+  font-size: 20px;
+}
+
+
 /* end Of Article info in article section  Section  */
 
 /* Start Of Article contains in article section  Section  */
