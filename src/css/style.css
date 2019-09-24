@@ -32,10 +32,9 @@ figure {
   max-width: 1200px;
 }
 
-.img-2,
-.img-2 figcaption {
+.img-2 {
   display: block;
-  margin: 40px auto;
+  margin: 40px auto 10px auto;
   max-width: 720px;
 }
 
@@ -149,7 +148,7 @@ figcaption {
 }
 
 .middle-article-flex div {
-  width: 260px;
+  width: 20%;
   margin: 1%;
 }
 
@@ -178,6 +177,11 @@ figcaption {
   color: #000000;
   margin-left: 5px;
   margin-top: 10px;
+}
+
+.figcaption-2 {
+  width: 720px;
+  margin: auto;
 }
 
 /* End Of Article contains in article section  Section  */
