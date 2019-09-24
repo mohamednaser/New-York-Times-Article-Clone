@@ -271,7 +271,21 @@ figcaption {
   align-content: space-between;
 }
 
+.most-popular ul {
+  list-style: none;
+  padding-inline-start: unset;
+}
 
+.most-popular li {
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
+  color: #000;
+}
+
+.most-popular li a {
+  color: #000;
+  text-decoration: none;
+}
 
 .space-articles {
   width: 25%;
@@ -293,7 +307,7 @@ figcaption {
 .most-popular {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 24%;
   float: right;
 }
 
