@@ -95,17 +95,109 @@ figcaption {
   color: #d3d3d3;
 }
 
-.article-text p, h4 { 
-  width: 33%; 
+.article-paragraph {
+  width: 33%;
   height: 100%;
   margin: 20px auto auto auto;
   font-size: 20px;
 }
 
+.article-text h4 {
+  width: 33%;
+  margin: 20px auto auto auto;
+  font-size: 20px;
+}
 
 /* end Of Article info in article section  Section  */
 
 /* Start Of Article contains in article section  Section  */
+
+.middle-article {
+  background-color: green;
+  width: 80%;
+  margin: auto;
+  height: 1000px;
+}
+
+#middle-article-tittle {
+  margin: 0.1px;
+}
+
+.summary-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.middle-article-footer {
+  border-top: 1px solid #333;
+  border-width: 5px;
+  color: #333;
+}
+
+.middle-article-flex {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.middle-article-flex div {
+  width: 260px;
+  /* height: 200px; */
+  margin: 1%;
+}
+
+.middle-article-sec-1 {
+  /* background-color: aqua; */
+}
+.middle-article-sec-2 {
+  background-color: red;
+}
+.middle-article-sec-3 {
+  background-color: yellow;
+}
+.middle-article-sec-4 {
+  background-color: antiquewhite;
+}
+.middle-article-sec-5 {
+  background-color: bisque;
+}
+.middle-article-sec-6 {
+  background-color: blue;
+}
+.middle-article-sec-7 {
+  background-color: brown;
+}
+.middle-article-sec-8 {
+  background-color: cyan;
+}
+
+.middle-article-section-tittle {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.middle-article-section-image {
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+
+.middle-article-section-tittle {
+  font-size: 11px;
+}
+
+.middle-artile-desc {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  margin-left: 5px;
+  margin-top: 10px;
+}
 
 /* End Of Article contains in article section  Section  */
 
