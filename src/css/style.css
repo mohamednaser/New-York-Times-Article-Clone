@@ -291,6 +291,7 @@ figcaption {
 .space-articles {
   width: 25%;
   height: 200px;
+  font-family: times new roman, times, serif;
 }
 
 .most-popular {
@@ -319,17 +320,20 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   margin-top: 15px;
+  justify-content: space-between;
 }
 
 .editors-articles {
   width: 20px;
   height: 200px;
   background-color: orange;
+  font-family: times new roman, times, serif;
 }
 
 .editor-articles {
   width: 30%;
 }
+
 /* end editor pick section  */
 
 .article-images {
@@ -342,12 +346,32 @@ figcaption {
 }
 
 .picks-section-title {
-  font-size: 16px;
+  font-size: 20px;
   display: block;
   color: #000;
+  font-weight: bold;
 }
 
 .footer-container {
   max-width: 1300px;
   margin: auto;
+  font-family: times new roman, times, serif;
+}
+
+.article-title-bottom {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.image-author {
+  font-size: 12px;
+  color: #aeaeae;
+  padding-bottom: 10px;
+}
+
+.article-date-bottom {
+  font-size: 14px;
+  color: #aeaeae;
+  padding-top: 20px;
+
 }
