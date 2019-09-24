@@ -118,3 +118,14 @@ figcaption {
   background-color: red;
   text-align: center;
 }
+
+.article-video {
+  width: 33%; 
+  height: 100%;
+  margin: 40px auto;
+}
+
+.article-video span {
+  font-size: 15px;
+  color: #6c6c6c;
+}
