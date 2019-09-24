@@ -265,14 +265,15 @@ figcaption {
 .more-on-space {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 60%;
   height: 490px;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .space-articles {
   width: 25%;
   height: 200px;
-  background-color: green;
 }
 
 .editors-pick {
@@ -313,7 +314,6 @@ figcaption {
   font-size: 16px;
   display: block;
   color: #000;
-  float: left;
 }
 
 .footer-container {
