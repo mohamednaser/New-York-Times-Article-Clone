@@ -249,6 +249,7 @@ figcaption {
   height: 250px;
   background-color: red;
   text-align: center;
+  margin-top: 5%;
 }
 
 .article-video {
@@ -292,18 +293,6 @@ figcaption {
   height: 200px;
 }
 
-.editors-pick {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-}
-
-.editors-articles {
-  width: 20px;
-  height: 200px;
-  background-color: orange;
-}
-
 .most-popular {
   display: flex;
   flex-direction: column;
@@ -316,6 +305,32 @@ figcaption {
   height: 200px;
   background-color: blue;
 }
+
+/* start editor pick section  */
+.editors-pick-title {
+  padding-top: 15px;
+}
+
+.editors-pick {
+  width: 75%;
+}
+
+.editor-articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.editors-articles {
+  width: 20px;
+  height: 200px;
+  background-color: orange;
+}
+
+.editor-articles {
+  width: 30%;
+}
+/* end editor pick section  */
 
 .article-images {
   width: 270px;
