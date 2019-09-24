@@ -32,6 +32,14 @@ figure {
   max-width: 1200px;
 }
 
+.img-2, .img-2 figcaption{
+  display: block;
+  margin: 40px auto;
+  max-width: 720px;
+}
+
+}
+
 figcaption {
   font-size: 15px;
   color: #9e9e9e;
@@ -95,7 +103,7 @@ figcaption {
   color: #d3d3d3;
 }
 
-.article-text p, h4 { 
+.article-paragraph, h4 { 
   width: 33%; 
   height: 100%;
   margin: 20px auto auto auto;
