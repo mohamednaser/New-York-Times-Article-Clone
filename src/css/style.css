@@ -86,8 +86,13 @@ figcaption {
   background: none;
 }
 
-.bookmark-icon{
+.bookmark-icon {
   background-color: white !important;
+}
+
+.number-of-comments-icon {
+  background-color: white !important;
+  color: #d3d3d3;
 }
 
 /* end Of Article info in article section  Section  */
