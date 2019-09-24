@@ -120,10 +120,10 @@ figcaption {
 /* Start Of Article contains in article section  Section  */
 
 .middle-article {
-  background-color: green;
   width: 80%;
   margin: auto;
   height: 1000px;
+  margin-top: 15px;
 }
 
 #middle-article-tittle {
@@ -145,37 +145,13 @@ figcaption {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .middle-article-flex div {
   width: 260px;
   /* height: 200px; */
   margin: 1%;
-}
-
-.middle-article-sec-1 {
-  /* background-color: aqua; */
-}
-.middle-article-sec-2 {
-  background-color: red;
-}
-.middle-article-sec-3 {
-  background-color: yellow;
-}
-.middle-article-sec-4 {
-  background-color: antiquewhite;
-}
-.middle-article-sec-5 {
-  background-color: bisque;
-}
-.middle-article-sec-6 {
-  background-color: blue;
-}
-.middle-article-sec-7 {
-  background-color: brown;
-}
-.middle-article-sec-8 {
-  background-color: cyan;
 }
 
 .middle-article-section-tittle {
