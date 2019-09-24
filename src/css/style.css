@@ -108,10 +108,36 @@ figcaption {
   font-size: 20px;
 }
 
+.bottom-article {
+  width: 42%;
+  height: 100%;
+  margin: 20px auto auto auto;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.comments-bottom {
+  width: 42%;
+  margin: 40px auto;
+}
+
 .article-text h4 {
   width: 42%;
-  margin: 20px auto auto auto;
+  margin: 20px auto;
   font-size: 20px;
+}
+
+.read-comments-button {
+  background-color: rgb(98, 136, 165);
+  color: white;
+  width: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 /* end Of Article info in article section  Section  */
