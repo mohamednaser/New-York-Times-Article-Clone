@@ -1,9 +1,15 @@
+/* General rules */
+
 * {
   margin: 0.1px;
 }
 
 body {
   font-family: "Arbutus Slab", serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Navigation bar section  */
@@ -246,7 +252,7 @@ figcaption {
 /* Footer Section  */
 .footer {
   width: 100%;
-  height: 250px;
+  height: 500px;
   background-color: red;
   text-align: center;
   margin-top: 5%;
@@ -266,7 +272,7 @@ figcaption {
 .more-on-space {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 60%;
   height: 490px;
   justify-content: space-between;
   align-content: space-between;
@@ -292,6 +298,7 @@ figcaption {
   width: 25%;
   height: 200px;
   font-family: times new roman, times, serif;
+  margin-bottom: -45px;
 }
 
 .most-popular {
@@ -319,8 +326,9 @@ figcaption {
 .editor-articles-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15px;
   justify-content: space-between;
+  width: 86%;
+  margin-top: 94px;
 }
 
 .editors-articles {
@@ -373,5 +381,59 @@ figcaption {
   font-size: 14px;
   color: #aeaeae;
   padding-top: 20px;
+}
 
+/* footer navigation links */
+
+.navigation-links {
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.nav-link-column {
+  height: 350 px;
+  width: 200px;
+}
+
+.nav-column-1 {
+  background-color: blue;
+}
+
+.nav-column-2 {
+  background-color: green;
+}
+
+.nav-column-3 {
+  background-color: yellow;
+}
+
+.nav-column-4 {
+  background-color: black;
+}
+
+.nav-column-5 {
+  background-color: white;
+}
+
+.nav-column-6 {
+  background-color: purple;
+}
+
+.nav-link-list {
+  list-style: none;
+  padding-left: 0.1px;
+  text-align: initial;
+}
+
+.nav-link-item {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.nav-list-title {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
 }
