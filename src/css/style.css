@@ -349,7 +349,7 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 90%;
+  width: 93%;
 }
 
 .editors-articles {
@@ -378,10 +378,9 @@ figcaption {
   font-size: 20px;
   display: inline-block;
   color: #000;
-  border-top: 1px solid black;
   width: 71%;
   font-weight: bold;
-  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 .picks-section-title-left {
@@ -392,6 +391,7 @@ figcaption {
   float: right;
   padding-right: 14%;
   border-top: 1px solid black;
+  margin-top: -17px;
 }
 
 .footer-container {
@@ -566,4 +566,11 @@ figcaption {
 .copyrights-list li a {
   font-size: 11px;
   color: #a0acbf;
+}
+
+.editors-picks-border {
+  background-color: black;
+  width: 850px;
+  height: 1px;
+  display: inline-block;
 }
