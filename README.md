@@ -11,7 +11,7 @@ This project was executed by the duo of :
 - [Mohamed Naser](https://www.linkedin.com/in/mohamednaseramein/)
 - [Marcos Medeiros](https://www.linkedin.com/in/marcos-medeiros-6a079a18a/)
 
-## Used Toold
+## Used Tools
 
 - HTML
 - CSS
@@ -32,8 +32,6 @@ This project was executed by the duo of :
 
 ## Setup
 
-How to setup a repo of this page on your local machine:
-
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
 ```console
@@ -42,7 +40,7 @@ git clone https://github.com/mvsmdrs/displaying-and-inputting-data.git
 
 ## Live Version
 
-Live version [here](www.google.com) .
+Live version [here](www.google.com) [pending].
 
 ## ScreenShot For Page
 
