@@ -410,6 +410,7 @@ figcaption {
   list-style: none;
   padding-left: 0.1px;
   text-align: initial;
+  padding-bottom: 10px;
 }
 
 .nav-link-item {
@@ -437,4 +438,29 @@ figcaption {
   text-align: end;
   color: #83a1b8;
   font-size: 12px;
+}
+
+.subscribe-list {
+  list-style: none;
+  padding-left: 0.1px;
+}
+
+.subscribe-list-icon {
+  width: 15px;
+  height: 15px;
+  padding-right: 8px;
+}
+
+.subscribe-list-item {
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.mobile-app-list {
+  border-top: 3px solid #e2e2e2;
+  border-top-style: double;
+  padding-top: 1%;
 }
