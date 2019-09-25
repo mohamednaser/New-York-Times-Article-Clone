@@ -76,6 +76,8 @@ figcaption {
 .social-list {
   list-style-type: none;
   padding: 0.1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   float: right;
 }
@@ -178,6 +180,7 @@ figcaption {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(50, 104, 145);
+  -o-border-image: initial;
   border-image: initial;
   border-radius: 3px;
   padding: 10px;
@@ -227,9 +230,16 @@ figcaption {
 }
 
 .middle-article-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -293,15 +303,21 @@ figcaption {
 }
 
 .more-on-space {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 65%;
   min-height: 700px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .most-popular ul {
   list-style: none;
+  -webkit-padding-start: unset;
   padding-inline-start: unset;
 }
 
@@ -324,7 +340,12 @@ figcaption {
 }
 
 .most-popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 24%;
   float: right;
@@ -346,8 +367,13 @@ figcaption {
 }
 
 .editor-articles-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 93%;
 }
@@ -420,8 +446,11 @@ figcaption {
 /* footer navigation links */
 
 .navigation-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 70%;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -535,6 +564,7 @@ figcaption {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(50, 104, 145);
+  -o-border-image: initial;
   border-image: initial;
   border-radius: 3px;
   padding: 10px;
@@ -551,6 +581,8 @@ figcaption {
 
 .copyrights-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.1px;
   margin: auto;
