@@ -189,7 +189,7 @@ figcaption {
 /* Start Of Article contains in article section  Section  */
 
 .middle-article {
-  width: 80%;
+  width: 60%;
   margin: auto;
   height: 1000px;
   margin-top: 15px;
@@ -394,7 +394,7 @@ figcaption {
 
 .navigation-links {
   display: flex;
-  height: 400px;
+  height: 70%;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -463,8 +463,7 @@ figcaption {
 }
 
 .mobile-app-list {
-  border-top: 3px solid #e2e2e2;
-  border-top-style: double;
+  border-top: 1px solid #e2e2e2;
   padding-top: 1%;
 }
 
@@ -514,4 +513,30 @@ figcaption {
   padding: 10px;
   font-weight: bold;
   margin-right: 10px;
+}
+
+.copyrights {
+  border-top: 1px solid #e2e2e2;
+  border-top-style: double;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.copyrights-list {
+  list-style: none;
+  display: flex;
+  padding: 0.1px;
+  margin: auto;
+  width: 80%;
+}
+
+.copyrights-list li {
+  font-size: 11px;
+  color: #a0acbf;
+  padding-right: 12px;
+}
+
+.copyrights-list li a {
+  font-size: 11px;
+  color: #a0acbf;
 }
