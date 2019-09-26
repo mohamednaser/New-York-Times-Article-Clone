@@ -40,7 +40,7 @@ git clone https://github.com/mvsmdrs/displaying-and-inputting-data.git
 
 ## Live Version
 
-Live version [here](www.google.com) [pending].
+Live version [here](https://mohamednaser.github.io/New-York-Times-Article-Clone/).
 
 ## ScreenShot For Page
 
