@@ -1,0 +1,23 @@
+{
+  "name": "new-york-time-article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamednaser/new-york-time-article.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamednaser/new-york-time-article/issues"
+  },
+  "homepage": "https://github.com/mohamednaser/new-york-time-article#readme"
+}
